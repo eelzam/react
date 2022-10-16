@@ -1,0 +1,44 @@
+.featured {
+  height: 100vh;
+  position: relative;
+
+
+  img {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .info {
+    margin-top: 15px;
+    max-width: 100%;
+    color: white;
+    padding: 10px;
+    direction: rtl;
+    text-align: justify;
+
+
+    .desc {
+      margin: 20px 0px;
+    }
+
+  }
+
+  @media only screen and (min-width: 992px) {
+    img {
+        width: 50%;
+      }
+
+    div:has(.mainimage) {
+        text-align: center;
+    }
+
+
+
+    .info {
+      max-width: 45%;
+      margin:auto
+    }
+  }
+
+
+}
