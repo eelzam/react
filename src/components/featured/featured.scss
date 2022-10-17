@@ -3,6 +3,17 @@
   position: relative;
 
 
+  // fix height auto which cause the tap buttons to disfunction.
+   div > div div:nth-child(3) {
+        height: 2px !important;
+      }
+
+   div > div:nth-child(3) {
+        height: 100% !important;
+      }
+
+  // end of fix
+
   img {
     width: 100%;
     margin-top: 15px;
@@ -31,8 +42,6 @@
     div:has(.mainimage) {
         text-align: center;
     }
-
-
 
     .info {
       max-width: 45%;

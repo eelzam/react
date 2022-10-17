@@ -83,7 +83,7 @@ const contentStyle = {
 }
 
 const storyContentStyle = {
-	marginTop: 70
+	marginTop: '70px'
 }
 
 export default function Featured() {
@@ -93,13 +93,12 @@ export default function Featured() {
       		<Stories
                 loop
 			    stories={stories2}
-			    defaultInterval={250000}
+			    defaultInterval={150000}
 				width={"100%"}
 				height={"auto"}
 				keyboardNavigation={true}
 				storyContainerStyles={storyContentStyle}
 		    />
-
 
     </div>
   );
