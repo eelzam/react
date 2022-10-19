@@ -9,7 +9,7 @@ const Navbar = () => {
                 <span>קונצרט</span>
             </div>
             <div className="right">
-                <span>הופעות מהז׳נר שלי</span>
+                <span>הופעות מהז׳אנר שלי</span>
 
             </div>
         </div>

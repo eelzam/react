@@ -1,4 +1,4 @@
-const config = {
+/*const config = {
   mode: 'production' | "development" | "none", // "production"
   resolve: {
     extensions: ['*', '.mjs', '.js', '.json']
@@ -14,4 +14,4 @@ const config = {
   }
 }
 
-module.exports = config
+module.exports = config*/
