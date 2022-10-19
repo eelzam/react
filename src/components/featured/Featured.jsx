@@ -114,7 +114,7 @@ const storyContentStyle = {
 
 export default function Featured() {
 
-	const [stories, setStories] = useState([]);
+//	const [stories, setStories] = useState([]);
 	const [loading, setLoading] = useState(true);
 
     // React advises to declare the async function directly inside useEffect
@@ -155,7 +155,7 @@ export default function Featured() {
 			})
 
 		setLoading(false);
-		setStories(stories2)
+		//setStories(stories2)
 	  }
 
 
