@@ -11,7 +11,7 @@ let stories2 = [
 		content: ({ action, isPaused }) => {
 			return <div style={contentStyle}>
 
-                    <img className="mainimage" src="https://a.storyblok.com/f/178921/1024x683/e678fe295d/16068862230_13812ef6e8_b.jpeg" alt=""/>
+                    <img className="mainimage" src="https://a.storyblok.com/f/178921/1024x683/e678fe295d/16068862230_13812ef6e8_b.jpeg/m/" alt=""/>
 
                       <div className="mainpage">
 
@@ -67,7 +67,7 @@ export default function Featured() {
 					content: ({ action, isPaused }) => {
 						return <div style={contentStyle}>
 
-								<img className="mainimage" src={story.content.image.filename} alt=""/>
+								<img className="mainimage" src={story.content.image.filename + '/m/'} alt=""/>
 
 							    <div className="info">
 
