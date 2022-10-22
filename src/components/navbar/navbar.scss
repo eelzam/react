@@ -1,6 +1,6 @@
 .navbar {
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -23,8 +23,9 @@
     .left {
       display: flex;
       align-items: center;
-      font-size: 20px;
-
+      font-weight: 900;
+      font-size: 22px;
+text-shadow: 1px 1px 0 #7A7A7A;
     }
     .right {
         span {

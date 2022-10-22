@@ -11,7 +11,7 @@ let stories2 = [
 		content: ({ action, isPaused }) => {
 			return <div style={contentStyle}>
 
-                    <img className="mainimage" src="https://a.storyblok.com/f/178921/1024x683/e678fe295d/16068862230_13812ef6e8_b.jpeg/m/" alt=""/>
+                    <img className="mainimage" src="https://a.storyblok.com/f/178921/1024x1024/fb649a9c9e/dall-e-2022-10-22-09-44-38-a-male-singer-with-darboka-singing-in-concert-as-digital-art.png/m/" alt=""/>
 
                       <div className="mainpage">
 
@@ -25,8 +25,8 @@ let stories2 = [
 						  </h3>
 
                       </div></div>
-
-		}
+		},
+		duration: 10000
 	}
 ]
 
